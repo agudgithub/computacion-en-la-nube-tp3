@@ -1,0 +1,12 @@
+GET http://localhost:3000/envios/pendientes
+
+###
+POST http://localhost:3000/envios
+
+{
+    "destino": "MDZ",
+    "email": "test@gmail.com"
+}
+###
+
+PUT http://localhost:3000/envios/HI9B2WNGJ8Bqqz58Pbabg/entregado
